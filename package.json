@@ -1,0 +1,24 @@
+{
+  "name": "@mikield/adonis-user-policy",
+  "version": "0.0.5",
+  "description": "User Policy trait (support can and canNot methods for User model) for AdonisJS Framework",
+  "main": "PolicyTrait.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikield/adonis-user-policy.git"
+  },
+  "keywords": [
+    "AdonisJS",
+    "Policy",
+    "Authorization"
+  ],
+  "author": "Vladyslav Gaysyuk <mikield@icloud.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikield/adonis-user-policy/issues"
+  },
+  "homepage": "https://github.com/mikield/adonis-user-policy#readme",
+  "dependencies": {
+    "@mikield/adonis-true-traits": "^0.0.5"
+  }
+}
