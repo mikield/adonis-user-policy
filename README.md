@@ -1,8 +1,12 @@
-# adonis-laravel-broadcaster
+# adonis-user-policy
 Adonis User Policy (Authorization).
 This is a trait wich adds `can` and `canNot` methods to User Model (or other class :smile:)
 
 # Registering the trait and policies
+
+1) Register `@mikield/adonis-true-traits` into your `providers` config section.
+
+2) Mix `User` model class with a `PolicyTrait` class
 ```js
 'use strict'
 
@@ -15,8 +19,7 @@ class User extends Model {
 
 module.exports = mix(User).with(PolicyTrait)
 ```
-
-Create a Policy `Post.js` under (for example) `app\Policies` folder.
+3) Create a Policy `Post.js` under (for example) `app\Policies` folder.
 ```js
 'use strcit'
 
@@ -36,7 +39,7 @@ module.exports = Post
 ```
 
 
-Next register a Policy (just a class) in other Models.
+4) Next register a Policy (just a class) in other Models.
 
 ```js
 'use strict'
