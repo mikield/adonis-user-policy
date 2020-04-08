@@ -1,6 +1,6 @@
 {
   "name": "@mikield/adonis-user-policy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "User Policy trait (support can and canNot methods for User model) for AdonisJS Framework",
   "main": "PolicyTrait.js",
   "repository": {
